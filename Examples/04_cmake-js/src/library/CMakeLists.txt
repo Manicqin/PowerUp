@@ -1,0 +1,8 @@
+set(CURRENT_PROJECT ${PROJECT_NAME}_lib)
+message(STATUS "start ${CURRENT_PROJECT}")
+
+set(SOURCE_FILES library.h library.cpp utils.h utils.cpp)
+
+add_library(${CURRENT_PROJECT} STATIC ${SOURCE_FILES})
+set_property(TARGET ${CURRENT_PROJECT} PROPERTY POSITION_INDEPENDENT_CODE ON)
+target_include_directories(${CURRENT_PROJECT} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

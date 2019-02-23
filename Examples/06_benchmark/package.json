@@ -1,0 +1,14 @@
+{
+  "name": "06_benchmark",
+  "version": "1.0.0",
+  "scripts": {
+    "benchmark": "node_modules/benchr/bin/benchr benchmark*.js",
+    "warAndPeace": "node countWords.js"
+  },
+  "dependencies": {
+    "benchr": "^4.3.0",
+    "count-words": "^1.0.11",
+    "count-words-occurrence": "^1.0.0",
+    "lorem-ipsum": "^1.0.6"
+  }
+}

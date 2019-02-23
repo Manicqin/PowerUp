@@ -1,0 +1,23 @@
+{
+  "name": "01_basic",
+  "version": "1.0.0",
+  "description": "Basic native module example",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/test.js",
+    "run": "node index.js",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/gPowerUp/Examples/01_Basic"
+  },
+  "engines": {
+    "node": "6.11.4"
+  },
+  "author": "Boaz Fishman",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  }
+}

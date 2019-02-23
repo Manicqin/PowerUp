@@ -1,0 +1,21 @@
+{
+  "name": "02_Compatible",
+  "version": "0.0.1",
+  "main": "index.js",
+  "description": "Using NAN, version compatible",
+  "scripts": {
+    "test": "mocha tests/test.js",
+    "run": "node index.js",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/gPowerUp/Examples/02_Compatible"
+  },
+  "author": "Boaz Fishman",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^5.2.0",
+    "nan": "^2.10.0"
+  }
+}
